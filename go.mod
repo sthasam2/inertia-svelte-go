@@ -1,4 +1,4 @@
-module github.com/sthasam2/portfolio
+module github.com/sthasam2/inertia-svelte-go
 
 go 1.24.2
 
