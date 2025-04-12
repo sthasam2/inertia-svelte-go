@@ -1,0 +1,26 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && vite build --config ssr.config.ts",
+    "build-watch": "vite build --watch && vite build --config ssr.config.js",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "@tsconfig/svelte": "^5.0.4",
+    "laravel-vite-plugin": "^1.2.0",
+    "svelte": "^5.20.2",
+    "svelte-check": "^4.1.4",
+    "svelte-preprocess": "^6.0.3",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "@inertiajs/svelte": "^2.0.8"
+  }
+}
